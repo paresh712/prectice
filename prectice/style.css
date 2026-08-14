@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav{
+    background: rgb(248, 70, 248);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+}
+
+.logo{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+.links ul{
+    display: flex;
+    gap: 15px;
+}
+
+.links ul li{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.links li a{
+    color: white;
+}
+
+button{
+    border: none;
+    height: 40%;
+    width: 7%;
+    border-radius: 5px;
+    font-weight: normal;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+button:hover{
+    background: #ece6e6;
+}
+
