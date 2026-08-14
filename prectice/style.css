@@ -7,6 +7,10 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
+body{
+    height: 100vh;
+}
+
 nav{
     background: rgb(248, 70, 248);
     display: flex;
@@ -38,8 +42,7 @@ nav{
 
 button{
     border: none;
-    height: 40%;
-    width: 7%;
+   padding: 10px 15px; 
     border-radius: 5px;
     font-weight: normal;
     font-size: 17px;
@@ -49,4 +52,58 @@ button{
 button:hover{
     background: #ece6e6;
 }
+
+.contant{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90vh;
+    padding: 5%;
+}
+
+.contant-text{
+    text-align: center;
+    padding: 10px;
+}
+
+.contant-text h2{
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+.contant-text h3{
+    margin-bottom: 15px;
+    font-size: 20px;
+    /* color: blueviolet; */
+}
+
+.contant-text h3 span{
+    color: white;
+    font-weight: 900;
+    background: #e627a0;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.contant-text p{
+    color: rgb(6, 2, 82);
+    margin-bottom: 20px;
+}
+
+.contant-text button{
+    background: #f333bc;
+    width: auto;
+    padding: 10px 20px;
+}
+
+.contant-text button:hover{
+    background: #ef59b8;
+}
+
+.image img{
+    width: 100%;
+    padding: 5%;
+}
+
+
 
